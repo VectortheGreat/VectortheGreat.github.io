@@ -7,7 +7,7 @@ section {
   width: 100%;
   color: bisque;
   font-size: 25px;
-  background: url(images/Resim1.jpg);
+  background: url(https://i.imgur.com/3KgyIuT.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -61,22 +61,22 @@ a {
   color: aliceblue;
 }
 #profilid:hover {
-  background: url(images/slime.gif);
+  background: url(https://i.imgur.com/IsA5tSZ.gif);
   background-size: cover;
   background-position: center;
 }
 #oyunid:hover {
-  background: url(images/bunny.gif);
+  background: url(https://i.imgur.com/7tPfSzF.gif);
   background-size: cover;
   background-position: center;
 }
 #ssid:hover {
-  background: url(images/rainbow.gif);
+  background: url(https://steamuserimages-a.akamaihd.net/ugc/798670123606200188/061868E0BBE29B30A9BFC14E51C5D5D90E700D6C/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false);
   background-size: cover;
   background-position: center;
 }
 #modid:hover {
-  background: url(images/party.gif);
+  background: url(https://i.imgur.com/IwTs1br.gif);
   background-size: cover;
   background-position: center;
 }
@@ -108,7 +108,7 @@ article {
   margin: 5px;
 }
 article:hover {
-  background: url(images/resim5.jfif);
+  background: url(https://i.pinimg.com/736x/42/34/30/423430e27c4bbd0caf1e36d5cd549927.jpg);
   background-position: bottom;
   color: white;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -121,7 +121,7 @@ article:hover {
   margin: 5px;
 }
 #backgroundoyunlar:hover {
-  background: url(images/resim3.jpg);
+  background: url(https://i.imgur.com/mDENTqD.jpg);
   background-size: cover;
   background-position: center;
   color: white;
@@ -129,7 +129,7 @@ article:hover {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 #backgroundss:hover {
-  background: url(images/resim2.jpg);
+  background: url(https://i.imgur.com/XVEP8RY.jpg);
   background-size: cover;
   background-position: center;
   color: white;
@@ -137,8 +137,9 @@ article:hover {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 #backgroundmod:hover {
-  background: url(images/resim4.jpg);
+  background: url(https://i.imgur.com/16S26Wb.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
   -webkit-text-stroke: 0.01px white;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
@@ -146,7 +147,8 @@ aside {
   text-align: center;
 }
 section:hover {
-  background: url("images/star.gif"), url("images/Resim1.jpg");
+  background: url(https://i.imgur.com/LdBtmTo.gif),
+    url(https://i.imgur.com/3KgyIuT.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
