@@ -1,0 +1,153 @@
+header {
+  background-color: rgb(216, 161, 59);
+}
+section {
+  background-color: blanchedalmond;
+  height: 600px;
+  width: 100%;
+  color: bisque;
+  font-size: 25px;
+  background: url("Resimler/Resim1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+footer {
+  background-color: rgb(216, 161, 59);
+  font-style: italic;
+  text-align: center;
+}
+.solpanel {
+  display: inline-block;
+  text-align: left;
+}
+#profilid {
+  border-radius: 25px;
+  border: 1px solid rgb(105, 37, 147);
+  font-size: 25px;
+  padding: 9px;
+  padding: 10px;
+  margin: 15px;
+}
+.sagpanel {
+  display: inline-block;
+  width: calc(100% - 134px);
+  text-align: right;
+  padding: 10px;
+}
+#oyunid {
+  border-radius: 25px;
+  border: 1px solid rgb(105, 37, 147);
+  padding: 9px;
+  font-size: 25px;
+  margin: 15px;
+}
+#ssid {
+  border-radius: 25px;
+  border: 1px solid rgb(105, 37, 147);
+  padding: 9px;
+  font-size: 25px;
+  margin: 15px;
+}
+#modid {
+  border-radius: 25px;
+  border: 1px solid rgb(105, 37, 147);
+  padding: 9px;
+  font-size: 25px;
+  margin: 15px;
+}
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+#profilid:hover {
+  background: url(Resimler/slime.gif);
+  background-size: cover;
+  background-position: center;
+}
+#oyunid:hover {
+  background: url(Resimler/bunny.gif);
+  background-size: cover;
+  background-position: center;
+}
+#ssid:hover {
+  background: url(Resimler/rainbow.gif);
+  background-size: cover;
+  background-position: center;
+}
+#modid:hover {
+  background: url(Resimler/party.gif);
+  background-size: cover;
+  background-position: center;
+}
+#profilid:active {
+  color: crimson;
+}
+#oyunid:active {
+  background-color: blanchedalmond;
+  color: crimson;
+}
+#ssid:active {
+  background-color: blanchedalmond;
+  color: crimson;
+}
+#modid:active {
+  background-color: blanchedalmond;
+  color: crimson;
+}
+section::first-letter {
+  font-size: 200%;
+  color: crimson;
+}
+article {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  border: 0px solid black;
+  border-radius: 25px;
+  margin: 5px;
+}
+article:hover {
+  background: url(Resimler/resim5.jfif);
+  background-position: bottom;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.metinler {
+  display: inline-block;
+  width: 30%;
+  text-align: center;
+  border-radius: 25px;
+  margin: 5px;
+}
+#backgroundoyunlar:hover {
+  background: url(Resimler/resim3.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  -webkit-text-stroke: 0.2px black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#backgroundss:hover {
+  background: url(Resimler/resim2.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  -webkit-text-stroke: 0.2px black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#backgroundmod:hover {
+  background: url(Resimler/resim4.jpg);
+  background-size: cover;
+  -webkit-text-stroke: 0.01px white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+aside {
+  text-align: center;
+}
+section:hover {
+  background: url("Resimler/star.gif"), url("Resimler/Resim1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
