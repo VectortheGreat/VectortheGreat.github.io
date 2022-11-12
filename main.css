@@ -7,7 +7,7 @@ section {
   width: 100%;
   color: bisque;
   font-size: 25px;
-  background: url(resimler/Resim1.jpg);
+  background: url(images/Resim1.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -61,22 +61,22 @@ a {
   color: aliceblue;
 }
 #profilid:hover {
-  background: url(resimler/slime.gif);
+  background: url(images/slime.gif);
   background-size: cover;
   background-position: center;
 }
 #oyunid:hover {
-  background: url(resimler/bunny.gif);
+  background: url(images/bunny.gif);
   background-size: cover;
   background-position: center;
 }
 #ssid:hover {
-  background: url(resimler/rainbow.gif);
+  background: url(images/rainbow.gif);
   background-size: cover;
   background-position: center;
 }
 #modid:hover {
-  background: url(resimler/party.gif);
+  background: url(images/party.gif);
   background-size: cover;
   background-position: center;
 }
@@ -108,7 +108,7 @@ article {
   margin: 5px;
 }
 article:hover {
-  background: url(resimler/resim5.jfif);
+  background: url(images/resim5.jfif);
   background-position: bottom;
   color: white;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -121,7 +121,7 @@ article:hover {
   margin: 5px;
 }
 #backgroundoyunlar:hover {
-  background: url(resimler/resim3.jpg);
+  background: url(images/resim3.jpg);
   background-size: cover;
   background-position: center;
   color: white;
@@ -129,7 +129,7 @@ article:hover {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 #backgroundss:hover {
-  background: url(resimler/resim2.jpg);
+  background: url(images/resim2.jpg);
   background-size: cover;
   background-position: center;
   color: white;
@@ -137,7 +137,7 @@ article:hover {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 #backgroundmod:hover {
-  background: url(resimler/resim4.jpg);
+  background: url(images/resim4.jpg);
   background-size: cover;
   -webkit-text-stroke: 0.01px white;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -146,7 +146,7 @@ aside {
   text-align: center;
 }
 section:hover {
-  background: url("resimler/star.gif"), url("resimler/Resim1.jpg");
+  background: url("images/star.gif"), url("images/Resim1.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
