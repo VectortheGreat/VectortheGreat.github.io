@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  font-size: 1.4rem;
+}
+.container {
+  margin: 0 auto;
+  width: 100%;
+}
+.row {
+  margin-top: 4rem;
+}
+* {
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.col-4 {
+  width: 100%;
+}
+
+.col-3 {
+  width: 100%;
+}
+
+.col-2 {
+  width: 100%;
+}
+
+.top_photo {
+  background-image: linear-gradient(
+      rgba(70, 162, 169, 0.2),
+      rgba(70, 162, 169, 0.2)
+    ),
+    url(https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  height: 30vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+@media (max-width: 576px) {
+  html {
+    font-size: 60%;
+  }
+}
+
+/* landscape */
+@media (min-width: 576px) {
+  .container {
+    margin: 0 auto;
+    width: 540px;
+  }
+  .top_photo {
+    height: 40vh;
+    width: 100%;
+  }
+  html {
+    font-size: 66%;
+  }
+}
+
+/* tablets */
+@media (min-width: 768px) {
+  .container {
+    margin: 0 auto;
+    width: 738px;
+  }
+  .top_photo {
+    height: 50vh;
+    width: 100%;
+  }
+  html {
+    font-size: 70%;
+  }
+  .col-2 {
+    float: left;
+    width: 50%;
+  }
+  .col-3 {
+    width: 33.33%;
+    float: left;
+  }
+  .col-4 {
+    float: left;
+    width: 24%;
+  }
+  .plan2 {
+    color: white;
+    padding: 0.5rem;
+    position: relative;
+    top: -2rem;
+  }
+  .kayitformu {
+    width: 50rem;
+    margin: auto;
+    padding: 0;
+  }
+}
+
+/* desktop */
+@media (min-width: 1000px) {
+  .container {
+    margin: 0 auto;
+    width: 970px;
+  }
+  .top_photo {
+    height: 70vh;
+    background-attachment: fixed;
+  }
+  html {
+    font-size: 74%;
+  }
+}
+
+/* large desktop */
+@media (min-width: 1200px) {
+  .container {
+    margin: 0 auto;
+    width: 1170px;
+  }
+  .top_photo {
+    height: 70vh;
+    background-attachment: fixed;
+  }
+  html {
+    font-size: 78%;
+  }
+}
+
+/* xlarge desktop */
+@media (min-width: 1400px) {
+  .container {
+    margin: 0 auto;
+    width: 1370px;
+  }
+  .top_photo {
+    height: 70vh;
+    background-attachment: fixed;
+  }
+  html {
+    font-size: 80%;
+  }
+}

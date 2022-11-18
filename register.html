@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div id="main_nav" class="container">
+        <a href="#" class="solpanel" id="homepage">Movie7</a>
+        <div class="sagpanel">
+          <a href="#" class="sagbutonlar" id="diziler">Diziler</a>
+          <a href="#" class="sagbutonlar" id="filmler">Filmler</a>
+          <a href="register.html" class="sagbutonlar" id="login">Giriş</a>
+          <a href="#" class="sagbutonlar" id="bar">
+            <i onclick="displayMenu()" class="fa-solid fa-bars"></i>
+          </a>
+        </div>
+      </div>
+    </header>
+    <div class="kayit">
+      <h1>Kayıt Olma Formu</h1>
+      <form action="" class="kayitformu">
+        <label for="firstname">Adınız</label>
+        <input type="text" name="firstname" id="firstname" />
+        <label for="secondname">Soyadınız</label>
+        <input type="text" name="secondname" id="secondname" />
+        <label for="email">E-mail adresiniz</label>
+        <input type="email" name="email" id="email" />
+        <label for="sifre">Şifreniz</label>
+        <input type="password" name="sifre" id="sifre" />
+        <label for="cinsiyet">Cinsiyetiniz</label>
+        <select name="cinsiyet" id="cinsiyet">
+          <option value="">Seç</option>
+          <option value="">Kadın</option>
+          <option value="">Erkek</option>
+        </select>
+        <input type="checkbox" name="agree" id="agree" />
+        <label for="agree">Kullanım sözleşmesini kabul ediyorum.</label>
+        <input type="button" id="onayla" value="Onayla" />
+      </form>
+    </div>
+    <footer class="row">
+      <div class="footerdiv container">
+        <ul>
+          <li>
+            <h3 class="footerh4">
+              Sorularınız mı var? 0850-390-7444 numaralı telefonu arayın
+            </h3>
+          </li>
+          <li class="maddeler"><a href="">SSS</a></li>
+          <li class="maddeler"><a href="">Bize Ulaşın</a></li>
+          <li class="maddeler"><a href="">Gizlilik</a></li>
+          <li class="maddeler"><a href="">Çerez Tercihleri</a></li>
+        </ul>
+      </div>
+      <p>Made by Vector</p>
+    </footer>
+    <div class="yukariok">
+      <a href="#body"><i class="fa-regular fa-circle-up fa-3x"></i></a>
+    </div>
+    <script>
+      function displayMenu() {
+        var link = document.getElementById("main_nav");
+        link.classList.toggle("mobile");
+      }
+    </script>
+  </body>
+</html>

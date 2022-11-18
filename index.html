@@ -5,69 +5,233 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="styles.css" />
   </head>
-  <body>
+  <body id="body">
     <header>
-      <a
-        class="solpanel"
-        id="profilid"
-        href="https://steamcommunity.com/id/VectorTheConqueror"
-        target="_blank"
-        >Profil</a
-      >
-      <div class="sagpanel">
-        <a
-          id="oyunid"
-          href="https://steamcommunity.com/id/VectorTheConqueror/games/?tab=all"
-          target="_blank"
-          >Oyunlar</a
-        >
-        <a
-          id="ssid"
-          href="https://steamcommunity.com/id/VectorTheConqueror/screenshots/"
-          target="_blank"
-          >Ekran Görüntüleri</a
-        >
-        <a
-          id="modid"
-          href="https://steamcommunity.com/id/VectorTheConqueror/myworkshopfiles/"
-          target="_blank"
-          >Atölye Öğeleri</a
-        >
+      <div id="main_nav" class="container">
+        <a href="#" class="solpanel" id="homepage">Movie7</a>
+        <div class="sagpanel">
+          <a href="#" class="sagbutonlar" id="diziler">Diziler</a>
+          <a href="#" class="sagbutonlar" id="filmler">Filmler</a>
+          <a href="register.html" class="sagbutonlar" id="login">Giriş</a>
+          <a href="#" class="sagbutonlar" id="bar">
+            <i onclick="displayMenu()" class="fa-solid fa-bars"></i>
+          </a>
+        </div>
       </div>
     </header>
-    <section>Welcome to Vector's Profile</section>
-    <main>
-      <article>
-        <h1>Vector</h1>
-        <p>Welcome to my profile.</p>
-      </article>
-      <br />
-      <aside>
-        <div class="metinler" id="backgroundoyunlar">
-          <h1>Oyunlar</h1>
-          <p>
-            Toplam 131 oyunun çoğunluğu strateji olmakla beraber aynı zamanda
-            MOBA ve RPG oyunları bulunmaktadır.
-          </p>
+    <div class="top_photo">
+      <div class="top_photo_text">
+        <h1 id="top_photo_h1">Hoşgeldin</h1>
+        <p id="top_photo_p">
+          Binlerce diziler, filmler ve belgesellerin olduğu bir website..
+        </p>
+      </div>
+    </div>
+    <div class="about">
+      <div class="container row">
+        <h1 class="about_h1">Movie7 Nedir?</h1>
+        <p class="about_p">
+          Movie7, üyelerimizin internete bağlı bir cihazda dizi ve film
+          izlemelerini sağlayan abonelik tabanlı bir streaming hizmetidir.
+          Planınıza bağlı olarak iOS, Android veya Windows 10 cihazınıza
+          dizileri ve filmleri indirebilir ve internet bağlantısı olmadan
+          izleyebilirsiniz.
+        </p>
+        <div class="ucleme row clearfix">
+          <div class="register col-3">
+            <i class="fa-solid fa-arrow-right-to-bracket fa-5x"></i>
+            <h2>Kayıt Ol</h2>
+            <p>Sitemize kayıt olarak bir çok imkana erişebilirsiniz.</p>
+          </div>
+          <div class="plan col-3">
+            <i class="fa-solid fa-scroll fa-5x"></i>
+            <h2>Plan Seç</h2>
+            <p>
+              Size ait sunduğumuz 3 plan'dan birini seçerek film ve dizilerinizi
+              izleyebilirsiniz
+            </p>
+          </div>
+          <div class="enjoy col-3">
+            <i class="fa-regular fa-face-smile-beam fa-5x"></i>
+            <h2>Kalite Standarları</h2>
+            <p>
+              Binlerce dizi ve filmleri yüksek kalite çözünürlükte ve reklamsız
+              bir şekilde izleyerek keyfinize bakınız.
+            </p>
+          </div>
         </div>
-        <div class="metinler" id="backgroundss">
-          <h1>Ekran Görüntüleri</h1>
-          <p>
-            417 Ekran Görüntülerinin çoğunluğu Skyrim, Bannerlord, Europa
-            Universalis ve Smite ile oluşmaktadır.
-          </p>
+      </div>
+    </div>
+    <div class="bot_section row clearfix">
+      <div class="bot_photo col-2"></div>
+      <div class="bot_photo_desc col-2">
+        <h2 class="bot_photo_desc_h2">
+          Tüm Filmleri ve TV Dizileri yayınlandıktan sonra hemen izleyin!
+        </h2>
+        <p class="bot_photo_desc_p">
+          Tüm dizi ve filmler yayınlandıkları an itibariyle Movie7 uygulamasına
+          erişiyor. Movie7 içeriği bölgelere göre farklılık gösterir ve zamanla
+          değişebilir. Değişik türlerde ödüllü Movie7 orijinal içerikleri,
+          diziler, filmler, belgeseller ve daha fazlasını izleyebilirsiniz. Siz
+          izledikçe dizi ve film önerme konusunda Movie7'in başarısı artacaktır.
+        </p>
+      </div>
+    </div>
+    <div class="plans">
+      <h1 class="plans_h1">Plans</h1>
+      <div class="plans3 container row clearfix">
+        <div class="plan1 col-3">
+          <div class="inner_plan">
+            <h2>Temel</h2>
+            <h3>45,99 TL/Aylık</h3>
+            <ul>
+              <li>Aynı anda 1 desteklenen cihazda izleyin</li>
+              <li>Sınırsız dizi, film ve oyun</li>
+              <li>Reklamsız diziler ve filmler</li>
+              <li>Desteklenen 1 cihaza aynı anda içerik indirin</li>
+              <li>HD kalitesinde izleyin (Kasım 2022'den itibaren)</li>
+            </ul>
+            <input type="button" value="Planı Seç" />
+          </div>
         </div>
-        <div class="metinler" id="backgroundmod">
-          <h1>Atölye Öğeleri</h1>
-          <p>
-            Tamamen Europa Universalis modları içindir. En popüleri ise 3000'den
-            fazla abonesi olan In the Name of Kayser'dir.
-          </p>
+
+        <div class="plan2 col-3">
+          <div class="inner_plan_recommended">
+            <h2 id="standarth2">Standart</h2>
+            <h3>69,99 TL/Aylık</h3>
+            <ul>
+              <li>Aynı anda 2 desteklenen cihazda izleyin</li>
+              <li>Sınırsız dizi, film ve oyun</li>
+              <li>Reklamsız diziler ve filmler</li>
+              <li>Desteklenen 2 cihaza aynı anda içerik indirin</li>
+              <li>Tam HD kalitesinde izleyin</li>
+            </ul>
+            <input type="button" value="Planı Seç" />
+          </div>
         </div>
-      </aside>
-    </main>
-    <footer>Made by Vector.</footer>
+
+        <div class="plan3 col-3">
+          <div class="inner_plan">
+            <h2>Özel</h2>
+            <h3>93,99 TL/Aylık</h3>
+            <ul>
+              <li>Aynı anda 4 desteklenen cihazda izleyin</li>
+              <li>Sınırsız dizi, film ve oyun</li>
+              <li>Reklamsız diziler ve filmler</li>
+              <li>Desteklenen 4 cihaza aynı anda içerik indirin</li>
+              <li>Ultra HD kalitesinde izleyin</li>
+            </ul>
+            <input type="button" value="Planı Seç" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="stats row clearfix">
+      <div class="container">
+        <div class="col-3">
+          <i class="fa-solid fa-film fa-lg"></i>
+          <h5 class="remembernomargin">1,230</h5>
+          <p class="remembernomargin">Filmler</p>
+        </div>
+        <div class="col-3">
+          <i class="fa-solid fa-tv fa-lg"></i>
+          <h5 class="remembernomargin">1,489</h5>
+          <p class="remembernomargin">Diziler</p>
+        </div>
+        <div class="col-3">
+          <i class="fa-solid fa-users fa-lg"></i>
+          <h5 class="remembernomargin">9,173</h5>
+          <p class="remembernomargin">Üye</p>
+        </div>
+      </div>
+    </div>
+    <br />
+    <div class="moviecards container row clearfix">
+      <h1>Son Filmler&Diziler</h1>
+      <div class="movie1 col-3">
+        <div class="inner_plan_2">
+          <img
+            src="https://www.hdfilmcehennemi.life/uploads/poster/avatar-2-izle.jpg"
+            class="movie_1_photo"
+            alt=""
+          />
+          <div class="movie_1_text">
+            <h3>Avatar 2</h3>
+            <p>
+              Seri 2.Filmi ile 2022 yılında tekrar dönüyor. Avatar 2, Sully
+              ailesini odağına alacak. Evlerini terk etmek zorunda kalan Jake ve
+              Neytiri, Pandora'nın dışına çıkacak ve yeni yerler
+              keşfedeceklerdir. Bu yeni yerler suyun altında büyük bir maceraya
+              açılmalarına neden olacaktır.
+            </p>
+            <p class="details">Detaylar</p>
+          </div>
+        </div>
+      </div>
+      <div class="movie2 col-3">
+        <div class="inner_plan_2">
+          <img
+            src="https://www.hdfilmcehennemi.life/uploads/poster/spider-man-across-the-spider-verse.jpg"
+            alt=""
+            class="movie_2_photo"
+          />
+          <div class="movie_2_text">
+            <h3>Spider-Man: Across the Spider-Verse</h3>
+            <p>
+              Spider-Man: Into the Spider-Verse 2, radyoaktif bir örümcek
+              tarafından ısırılmasıyla bambaşka bir dünyaya adım atıp, özel
+              yeteneklerle donanan Miles Morales'in maceralarını konu ediyor.
+              Spider-Man: Into The Spider-Verse'ün devam halkası olan yapımın
+              yönetmen koltuğunda Joaquim Dos Santos oturuyor.
+            </p>
+            <p class="details">Detaylar</p>
+          </div>
+        </div>
+      </div>
+      <div class="movie3 col-3">
+        <div class="inner_plan_2">
+          <img
+            src="https://www.hdfilmcehennemi.life/uploads/poster/the-flash.jpg"
+            class="movie_3_photo"
+            alt=""
+          />
+          <div class="movie_3_text">
+            <h3>The Flash</h3>
+            <p>
+              Flash, annesinin öldürülmesini önlemek için zamanda geriye gider,
+              zamanın çizgisini önemli ölçüde bozar.
+            </p>
+            <p class="details">Detaylar</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="row">
+      <div class="footerdiv container">
+        <ul>
+          <li>
+            <h3 class="footerh4">
+              Sorularınız mı var? 0850-390-7444 numaralı telefonu arayın
+            </h3>
+          </li>
+          <li class="maddeler"><a href="">SSS</a></li>
+          <li class="maddeler"><a href="">Bize Ulaşın</a></li>
+          <li class="maddeler"><a href="">Gizlilik</a></li>
+          <li class="maddeler"><a href="">Çerez Tercihleri</a></li>
+        </ul>
+      </div>
+      <p>Made by Vector</p>
+    </footer>
+    <div class="yukariok">
+      <a href="#body"><i class="fa-regular fa-circle-up fa-3x"></i></a>
+    </div>
+    <script>
+      function displayMenu() {
+        var link = document.getElementById("main_nav");
+        link.classList.toggle("mobile");
+      }
+    </script>
   </body>
 </html>
