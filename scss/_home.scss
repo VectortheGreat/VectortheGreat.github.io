@@ -1,0 +1,77 @@
+#home {
+  //section - home a
+  &__a {
+    .skills {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1rem;
+      margin-bottom: 2.5rem;
+      i {
+        color: $primary-color;
+        padding-bottom: 0.5rem;
+      }
+    }
+  }
+  //section - home b
+  &__b {
+    .profile {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      li {
+        &.title {
+          font-size: 1.5rem;
+        }
+        &.number {
+          font-size: 2rem;
+          font-weight: bold;
+        }
+      }
+      div {
+        padding: 3rem 0;
+        &:nth-child(odd) {
+          background-color: $light-color;
+        }
+        &:nth-child(even) {
+          background-color: $medium-color;
+        }
+      }
+    }
+  }
+
+  //section - homce c
+  &__c {
+    .process {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1.5rem;
+      text-align: center;
+      &__step {
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-size: 25px;
+        background-color: $light-color;
+        border-radius: 50%;
+        line-height: 15px;
+        padding: 1rem;
+        transform: all 1s;
+      }
+      &__icon {
+        position: relative;
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
+        background-color: $medium-color;
+        color: #fff;
+        padding: 2rem;
+        text-align: center;
+        &:hover {
+          background-color: $light-color;
+          .process__step {
+            background-color: $medium-color;
+          }
+        }
+      }
+    }
+  }
+}
