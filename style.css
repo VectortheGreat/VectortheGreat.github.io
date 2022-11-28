@@ -1,0 +1,19 @@
+.navbar {
+  background-color: #3f0071 !important;
+  color: aliceblue !important;
+}
+#logo-mate {
+  padding-right: 1rem;
+}
+.bg-dark {
+  background-color: #3f0071 !important;
+}
+#map {
+  margin-bottom: 1rem;
+  height: 450px;
+}
+@media (min-width: 768px) {
+  #map {
+    height: 100%;
+  }
+}
