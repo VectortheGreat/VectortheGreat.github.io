@@ -1,0 +1,12 @@
+#birth-date-div * {
+  width: 25%;
+}
+#last-date-div * {
+  width: 25%;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
