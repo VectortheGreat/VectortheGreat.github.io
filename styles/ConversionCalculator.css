@@ -1,0 +1,15 @@
+#conversion-ul-list * {
+  width: 25%;
+  text-align: center;
+}
+
+.input-group span {
+  width: 25%;
+  text-align: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
